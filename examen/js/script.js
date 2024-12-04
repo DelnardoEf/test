@@ -1,0 +1,1 @@
+let btnReserva = document.querySelector(#btnReserva)
