@@ -1,0 +1,71 @@
+#navbar {
+    background: rgb(172, 173, 243);
+    background: linear-gradient(0deg, rgb(179, 203, 247) 0%, rgb(180, 205, 250) 100%);
+    padding: 1.5rem;
+
+}
+
+#offerte {
+    
+    background: linear-gradient(0deg, rgb(247, 175, 175), rgb(179, 203, 247) 50%, rgb(247, 242, 195) 100%);
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1f5f8;
+    padding-top: 20px;
+}
+.card-custom {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+.card-body img {
+    border-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+}
+.btn-prenota {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-prenota:hover {
+    background-color: #218838;
+    color: white;
+}
+
+.btnviaji {
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+#imgviaji {
+    object-fit: cover;
+    height: 17rem;
+    border-radius: 50%;
+
+}
